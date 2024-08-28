@@ -1,2 +1,18 @@
-# test-api
-A RESTful API built with Node.js and Express.js
+## RESTful API
+
+### Description
+
+A simple RESTful API built with Node.js and Express.js for managing user data. This API supports CRUD operations: Create, Read, Update, and Delete user records. This API is run on localhost:5000 and uses a mock database. It does not include a user interface and can be tested using Postman.
+
+### Features (CRUD)
+
+- **Create**: Add new users with unique IDs.
+- **Read**: Retrieve a list of all users or a specific user by ID.
+- **Update**: Modify user information by ID.
+- **Delete**: Remove users by ID.
+
+### Technologies Used
+
+- **Node.js**: JavaScript runtime for building server-side applications.
+- **Express.js**: Web framework for Node.js to handle routing and middleware.
+- **UUID**: Library to generate unique identifiers for users.
